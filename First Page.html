@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<title>Table,Code</title>
+	
+	</head>
+<body>
+	<div class="topnav" type="button">
+<li><a class="active" href="C:\Users\HP\Desktop\Web technology\First page.html">First page</a></li>
+<li><a class="active" href="C:\Users\HP\Desktop\Web technology\Second page.html">Second page</a></li>
+<li><a class="active" href="C:\Users\HP\Desktop\Web technology\Third page.html">Third page</a></li>
+<li><a class="active" href="C:\Users\HP\Desktop\Web technology\Fourth page.html">Fourth page</a></li>
+<li><a class="active" href="C:\Users\HP\Desktop\Web technology\Fifth page.html">Fifth page</a></li>
+</div>
+	
+	<b><h1 style=font-family:italic; 
+	color:black;">HTML SYMBOLS</b></h1>
+	<p>I will display &euro; </p>
+	<p>I will display &#8364; </p>
+	<p>I will display &#x20AC; </p>
+	<p>I will display &forall; </p>
+	<p>I will display &part; </p>
+	<p>I will display &empty; </p>
+	<p>I will display &nabla; </p>
+	<p>I will display &prod; </p>
+	<p>I will display &sum; </p>
+
+	<b><h2 style=font-family:arial; 
+	color:red;">COMPUTER CODE EXAMPLE</b></h2>
+	<p><b><code>// C++ code to implement the approach</b><br>
+
+<b>#include <bits/stdc++.h></b><br>
+<b>using namespace std;</b><br>
+
+<b>class Node {</b><br>
+<b>public:</b><br>
+	int data;<br>
+	Node* left;<br>
+	Node* right;<br>
+	Node(int v)<br>
+	{<br>
+		this->data = v;<br>
+		this->left = this->right = NULL;<br>
+	}<br>
+};<br>
+<b>void printInorder(Node* node)</b>
+{<br>
+	if (node == NULL)<br>
+		return;<br>
+	printInorder(node->left);<br>
+	cout << node->data << " ";<br>
+	printInorder(node->right);<br>
+}<br><p>
+<p><b>int main()</b></p<br>
+{<br>
+	Node* root = new Node(100);<br>
+	root->left = new Node(20);<br>
+	root->right = new Node(200);<br>
+	root->left->left = new Node(10);<br>
+	root->left->right = new Node(30);<br>
+	root->right->left = new Node(150);<br>
+	root->right->right = new Node(300);<br>
+	cout << "Inorder Traversal: ";<br>
+	printInorder(root);<br>
+	<b>return 0;</b><br>
+}
+</code></p>	
+
+<h3>Table with Collapsed Borders</h3>
+
+		<Table Width= "50%" Align: "center;" >
+		<Table style= "border: 1px solid black;">
+		<tr>
+			<th style= "border: 1px solid black;"> Person1 </th>
+			<th style= "border: 1px solid black;"> Person2 </th>
+			<th style= "border: 1px solid black;"> Person3 </th>
+		</tr>
+		<tr>
+			<td style= "border: 1px solid black;"> Email </td>
+			<td style= "border: 1px solid black;"> Tobias </td>
+			<td style= "border: 1px solid black;"> Linus </td>
+		</tr>
+		<tr>
+			<td style= "border: 1px solid black;"> 16 </td>
+			<td style= "border: 1px solid black;"> 14 </td>
+			<td style= "border: 1px solid black;">10 </td>
+		</tr>
+</body>
+</html>
+
+
+
+
+
+
+
